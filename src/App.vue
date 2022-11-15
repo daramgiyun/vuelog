@@ -120,6 +120,7 @@
   <router-view :블로그글="블로그글"></router-view>
 
   <!-- <List :블로그글="블로그글"/> -->
+  <!-- git test -->
   
 </template>
 
