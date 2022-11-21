@@ -43,3 +43,24 @@ const router = createRouter({
 });
 
 export default router; 
+
+// velog 정리
+// const routes = [
+//   {
+//     path: "/mypage",
+//     component: MyPage,
+//     beforeEnter: ()=>{
+//       if (로그인했냐 == false) {
+//         return '/login'
+//       }
+//     }
+//   }
+// ];
+
+// const router = createRouter({ 가보자고 })
+// router.beforeEach((to, from)=> {
+//   //페이지 변경 전에 실행할 코드
+// })
+
+// beforeRouteEnter(){}
+// beforeRouteUpdate(){}
